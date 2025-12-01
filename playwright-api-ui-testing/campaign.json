@@ -1,0 +1,103 @@
+[
+	{
+		"type": "navigation",
+		"name": "goToCampaigns",
+		"locatorType": "xpath",
+		"locatorValue": "//*[@id='nav-ps-next']/li[3]"
+	},
+	{
+		"type": "clickAction",
+		"name": "createCampaign",
+		"locatorType": "xpath",
+		"locatorValue": "//*[@id=\"root\"]/div[2]/div/div/div/div/div/section[1]/div/div[1]/button/span"
+	},
+	{
+		"type": "text",
+		"name": "campaignName",
+		"value": "SpinGreen",
+		"locatorType": "xpath",
+		"locatorValue": "//label[contains(text(), 'Name')]/following::input[1]"
+	},
+	{
+		"type": "number",
+		"name": "budget",
+		"value": "1000",
+		"locatorType": "id",
+		"locatorValue": "budget-input"
+	},
+	{
+		"type": "textarea",
+		"name": "description",
+		"value": "Promotes turbines as a key solution for a resilient green future.",
+		"locatorType": "xpath",
+		"locatorValue": "//textarea[@name='description']"
+	},
+	{
+		"type": "select",
+		"name": "objective",
+		"value": "Drive Awareness",
+		"locatorType": "name",
+		"locatorValue": "objective"
+	},
+	{
+		"type": "file",
+		"name": "poster",
+		"value": "/home/digital/Pictures/jpg/arsen-vivcharyk-dmRB6RXRpFk-unsplash.jpg",
+		"locatorType": "xpath",
+		"locatorValue": "//input[@type='file']"
+	},
+	{
+		"type": "clickbutton",
+		"name": "submit",
+		"locatorType": "xpath",
+		"locatorValue": "//button[contains(., 'Payment')]"
+	},
+	{
+		"type": "button",
+		"name": "activeTabButton",
+		"locatorType": "xpath",
+		"locatorValue": "//button[contains(text(), 'Active') and contains(text(), '(')]"
+	},
+	{
+		"type": "button",
+		"name": "pendingTabButton",
+		"locatorType": "xpath",
+		"locatorValue": "//button[contains(text(), 'Pending') and contains(text(), '(')]"
+	},
+	{
+		"type": "button",
+		"name": "rejectedTabButton",
+		"locatorType": "xpath",
+		"locatorValue": "//button[contains(text(), 'Rejected') and contains(text(), '(')]"
+	},
+	{
+		"type": "button",
+		"name": "draftTabButton",
+		"locatorType": "xpath",
+		"locatorValue": "//button[contains(text(), 'Draft') and contains(text(), '(')]"
+	},
+	{
+		"type": "button",
+		"name": "archiveTabButton",
+		"locatorType": "xpath",
+		"locatorValue": "//button[contains(text(), 'Archived') and contains(text(), '(')]"
+	},
+	{
+		"type": "button",
+		"name": "listViewButton",
+		"locatorType": "css",
+		"locatorValue": "(//i[@title='List View'])[1]"
+	},
+	{
+		"type": "button",
+		"name": "termsOfServiceButton",
+		"locatorType": "xpath",
+		"locatorValue": "//p[normalize-space(text())='Terms of Service']"
+	},
+	{
+		"type": "button",
+		"name": "privacyPolicyButton",
+		"locatorType": "xpath",
+		"locatorValue": "//p[normalize-space(text())='Privacy Policy']"
+	}
+]

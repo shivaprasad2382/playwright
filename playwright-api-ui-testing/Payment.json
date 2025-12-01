@@ -1,0 +1,51 @@
+[
+	{
+		"type": "text",
+		"name": "email",
+		"value": "shiva7test@gmail.com",
+		"locatorType": "id",
+		"locatorValue": "email"
+	},
+	{
+		"type": "number",
+		"name": "cardNumber",
+		"value": "4242 4242 4242 4242",
+		"locatorType": "id",
+		"locatorValue": "cardNumber"
+	},
+	{
+		"type": "number",
+		"name": "cardExpiry",
+		"value": "09 / 26",
+		"locatorType": "id",
+		"locatorValue": "cardExpiry"
+	},
+	{
+		"type": "number",
+		"name": "cardCvc",
+		"value": "786",
+		"locatorType": "id",
+		"locatorValue": "cardCvc"
+	},
+	{
+		"type": "text",
+		"name": "billingName",
+		"value": "Shiva",
+		"locatorType": "id",
+		"locatorValue": "billingName"
+	},
+	{
+		"type": "select",
+		"name": "billingCountry",
+		"value": "Iceland",
+		"locatorType": "id",
+		"locatorValue": "billingCountry"
+	},
+	{
+		"type": "clickbutton",
+		"name": "submit",
+		"locatorType": "xpath",
+		"locatorValue": "//button[contains(., 'Pay')]"
+	}
+	
+]
